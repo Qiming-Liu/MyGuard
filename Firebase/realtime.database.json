@@ -1,0 +1,11 @@
+{
+  "device_map" : {
+    "LZTAXS" : "lZTaXscZNos6tUGKMj2LHMpGg1kjZHEvEJeciPFDZvvUyc1xQ37cUFqhuwjr7HWcfmskf7pUyFnFKfHlEvXBHHnhlxkmA6OgUCZnWZYr6895sov3SArktD/AVPlIeIz0V5SyybUf5GfgCnD69xmfdCKv5F53rkbM7pH6e/GC0pg="
+  },
+  "sensor_map" : {
+    "29CB76" : "d01626e2b9bb"
+  },
+  "shorturl" : {
+    "LZTAXS29CB76" : "https://myguard-9a9cb.web.app/myguardb.apk?deviceid=LZTAXS&senserid=29CB76"
+  }
+}

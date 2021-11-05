@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+    <title>MyGuard</title>
+<!--    vue-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ant-design-vue/1.7.8/antd.min.css">
+    <link rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/5.0.0/firebase-ui-auth.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.5.2/vue-router.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ant-design-vue/1.7.8/antd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.3/socket.io.min.js"></script>
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/dexie/3.0.3/dexie.js"></script>-->
+<!--    firebase-->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/5.0.0/firebase-ui-auth.js"></script>
+<!--    tensorflow-->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/pose-detection"></script>
+</head>
+<body>
+<div id="app">
+    <router-view></router-view>
+
+</div>
+<script src="js/lib/firebase.js"></script>
+<script src="js/lib/socket.js"></script>
+<script src="js/lib/canvas.js"></script>
+<script src="js/lib/ble.js"></script>
+<script src="js/lib/sp.js"></script>
+<!--<script src="js/lib/db.js"></script>-->
+<script src="js/build/build.js"></script>
+<script src="js/page/welcome.js"></script>
+<script src="js/page/container.js"></script>
+<script src="js/page/scan.js"></script>
+<script src="js/page/app.js"></script>
+<script src="js/index.js"></script>
+<script src="cordova.js"></script>
+</body>
+</html>

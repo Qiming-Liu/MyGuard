@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MyGuard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css">
+    <link rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/5.0.0/firebase-ui-auth.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/5.0.0/firebase-ui-auth.js"></script>
+</head>
+<body class="h-screen overflow-hidden flex items-center justify-center">
+<div class="w-screen h-screen flex justify-center items-center bg-gray-100">
+    <div id="firebaseui-auth-container"></div>
+</div>
+</body>
+<script>
+    firebase.initializeApp({
+        apiKey: "AIzaSyD9ZjKKDDvSKGPx4ydsfxqXnWrrjqOxy3k",
+        authDomain: "myguard-9a9cb.firebaseapp.com",
+        projectId: "myguard-9a9cb",
+        storageBucket: "myguard-9a9cb.appspot.com",
+        messagingSenderId: "341801117972",
+        appId: "1:341801117972:web:cb44a8be8759390558ba01",
+        measurementId: "G-YRSCE4T961"
+    });
+    firebase.analytics();
+    let ui = new firebaseui.auth.AuthUI(firebase.auth());
+    ui.start('#firebaseui-auth-container', {
+        signInSuccessUrl: 'https://prossliu.wixsite.com/myguard/copy-of-home',
+        signInOptions: [
+            {
+                provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
+                requireDisplayName: false
+            }
+        ]
+    });
+</script>
+</html>

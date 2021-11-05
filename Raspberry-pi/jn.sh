@@ -1,0 +1,1 @@
+sudo  /home/pi/.local/bin/jupyter notebook --allow-root

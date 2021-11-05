@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="app.mws.my.guard.b" version="1.0.0" xmlns="http://www.w3.org/ns/widgets"
+        xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MyGuard-B</name>
+    <description>
+        A app of an indoor surveillance system.
+    </description>
+    <content src="index.html"/>
+    <access origin="*"/>
+    <allow-intent href="*"/>
+    <allow-navigation href="*"/>
+    <platform name="android">
+        <preference name="Fullscreen" value="true"/>
+        <preference name="AndroidLaunchMode" value="singleTask"/>
+        <preference name="LogLevel" value="DEBUG"/>
+        <icon background="www/img/logo.png" foreground="www/img/logo.png" density="ldpi"/>
+        <icon background="www/img/logo.png" foreground="www/img/logo.png" density="mdpi"/>
+        <icon background="www/img/logo.png" foreground="www/img/logo.png" density="hdpi"/>
+        <icon background="www/img/logo.png" foreground="www/img/logo.png" density="xhdpi"/>
+        <icon background="www/img/logo.png" foreground="www/img/logo.png" density="xxhdpi"/>
+        <icon background="www/img/logo.png" foreground="www/img/logo.png" density="xxxhdpi"/>
+    </platform>
+</widget>

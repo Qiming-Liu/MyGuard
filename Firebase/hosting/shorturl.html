@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <title>MyGuard</title>
+    <script>
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                if (pair[0] === variable) {
+                    return pair[1];
+                }
+            }
+            return false;
+        }
+        firebase.initializeApp({
+            apiKey: "AIzaSyD9ZjKKDDvSKGPx4ydsfxqXnWrrjqOxy3k",
+            authDomain: "myguard-9a9cb.firebaseapp.com",
+            projectId: "myguard-9a9cb",
+            storageBucket: "myguard-9a9cb.appspot.com",
+            messagingSenderId: "341801117972",
+            appId: "1:341801117972:web:cb44a8be8759390558ba01",
+            measurementId: "G-YRSCE4T961",
+            databaseURL: "https://myguard-9a9cb-default-rtdb.asia-southeast1.firebasedatabase.app",
+        });
+        let id = getQueryVariable("id")
+        const dbRef = firebase.database().ref();
+        dbRef.child("shorturl").child(id).get().then((snapshot) => {
+            if (snapshot.exists()) {
+                window.location.href = snapshot.val();
+            } else {
+                console.log("No data available");
+            }
+        }).catch((error) => {
+            console.error(error);
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>

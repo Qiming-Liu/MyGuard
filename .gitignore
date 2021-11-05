@@ -1,0 +1,5 @@
+/App/platforms
+/App/plugins
+/App/node_modules
+/.idea
+/Firebase/.firebase
