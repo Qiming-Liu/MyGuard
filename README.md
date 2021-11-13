@@ -18,13 +18,22 @@
  - Face recognition
  - CDN Vue2
 
+# Device
+1. Bluetooth motion sensor
+2. Android
+3. Camera
+4. Raspberry Pi
+![](https://github.com/Qiming-Liu/MyGuard/raw/main/Res/device.png)  
 
-# MyGuard-B App
-> Build command (npm, cordova required)
-
-```d
+# Installation
+> App: make you have installed npm and cordova  
+```shell
 npm i
 cordova platform add android
 cordova build
 ```
-
+> Firebase: deploy hosting, set up realtime.database.json  
+> Pi: Pi OS, set up rc.local or run 
+```shell
+sudo python3 main.py
+```
