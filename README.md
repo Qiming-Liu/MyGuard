@@ -1,7 +1,7 @@
 ![](https://github.com/Qiming-Liu/MyGuard/raw/main/Res/logo.png)  
 
 ## Demo Video
-![](https://github.com/Qiming-Liu/MyGuard/raw/main/Res/MyGuard-B.mp4)  
+![Click here](https://github.com/Qiming-Liu/MyGuard/raw/main/Res/MyGuard-B.mp4)  
 
 ## Poster
 ![](https://github.com/Qiming-Liu/MyGuard/raw/main/Res/poster.png)  
