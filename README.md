@@ -26,7 +26,7 @@
 ![](https://github.com/Qiming-Liu/MyGuard/raw/main/Res/device.png)  
 
 # Installation
-> App: make you have installed npm and cordova  
+> App: make sure you have installed npm and cordova  
 ```shell
 npm i
 cordova platform add android
