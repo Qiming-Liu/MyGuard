@@ -13,7 +13,7 @@
  - Firebase Authentication
  - Firebase Realtime Database
  - Scan QR code to connect to Wi-Fi via Bluetooth LE
- - Real-time camera
+ - Real-time camera stream
  - Pose estimation TFJS
  - Face recognition
  - CDN Vue2
@@ -26,14 +26,22 @@
 ![](https://github.com/Qiming-Liu/MyGuard/raw/main/Res/device.png)  
 
 # Installation
-> App: make sure you have installed npm and cordova  
+> App:  
+make sure you have installed npm and cordova  
 ```shell
 npm i
 cordova platform add android
 cordova build
 ```
-> Firebase: deploy hosting, set up realtime.database.json  
-> Pi: Pi OS, set up rc.local or run 
+
+> Firebase: 
+* Create a new Firebase project  
+* Deploy hosting (optional)
+* Set up realtime.database.json (required for DB)
+* Replace all firebase related api id and keys in this project with yours  
+
+> Pi: 
+Raspberry pi os, set up rc.local (autorun) or run 
 ```shell
 sudo python3 main.py
 ```
