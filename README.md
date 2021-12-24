@@ -40,7 +40,7 @@ cordova build
 * Set up realtime.database.json (required for DB)
 * Replace all firebase related api id and keys in this project with yours  
 
-> Pi: 
+> Pi:   
 Raspberry pi os, set up rc.local (autorun) or run 
 ```shell
 sudo python3 main.py
