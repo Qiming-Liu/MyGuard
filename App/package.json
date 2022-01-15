@@ -13,14 +13,15 @@
   "devDependencies": {
     "android": "0.0.8",
     "cordova-android": "^9.1.0",
-    "cordova-plugin-android-restart": "git+https://github.com/Qiming-Liu/cordova-plugin-android-restart.git",
-    "cordova-plugin-awesome-shared-preferences": "git+https://github.com/jptrainor/cordova-plugin-shared-preferences.git",
+    "cordova-browser": "^6.0.0",
+    "cordova-plugin-android-restart": "github:Qiming-Liu/cordova-plugin-android-restart",
+    "cordova-plugin-awesome-shared-preferences": "github:jptrainor/cordova-plugin-shared-preferences",
     "cordova-plugin-badge": "^0.8.8",
-    "cordova-plugin-ble-peripheral": "git+https://github.com/Qiming-Liu/cordova-plugin-ble-peripheral-fix.git",
+    "cordova-plugin-ble-peripheral": "github:Qiming-Liu/cordova-plugin-ble-peripheral-fix",
     "cordova-plugin-browsersync-gen2": "^1.1.7",
     "cordova-plugin-device": "^2.0.3",
-    "cordova-plugin-local-notification": "git+https://github.com/katzer/cordova-plugin-local-notifications.git",
-    "cordova-plugin-qrscanner": "git+https://github.com/Qiming-Liu/cordova-plugin-qrscanner.git",
+    "cordova-plugin-local-notification": "github:katzer/cordova-plugin-local-notifications",
+    "cordova-plugin-qrscanner": "github:Qiming-Liu/cordova-plugin-qrscanner",
     "cordova-plugin-whitelist": "^1.3.5"
   },
   "cordova": {
@@ -36,8 +37,8 @@
       "cordova-plugin-android-restart": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "browser"
     ]
-  },
-  "dependencies": {}
+  }
 }
