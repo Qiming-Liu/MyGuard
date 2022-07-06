@@ -1,13 +1,11 @@
-![](https://github.com/Qiming-Liu/MyGuard/raw/main/Res/logo.png)  
+# Introduction
+> #### This project aims to design an indoor surveillance system which by using three devices: a set of Bluetooth sensors, a base station and a web camera. Users could install the sensor anywhere in their home and mount the camera at the right location to observe the surveillance region. If an unauthorised person has some unallowed actions, the sensor will notify the base station and the web camera will catch a photo for the surveillance region. The users will be notified and they can find the warning notification and photo via a phone APP. 
 
 ## Demo Video
-[![Download Demo Video](https://github.com/Qiming-Liu/MyGuard/raw/main/Res/demo.png "demo.png")](https://github.com/Qiming-Liu/MyGuard/raw/main/Res/demo.mp4)  
+https://user-images.githubusercontent.com/68600416/177585827-7ec9844e-c01c-421a-a3e2-1cd2729233d7.mp4
 
 ## Poster
 ![](https://github.com/Qiming-Liu/MyGuard/raw/main/Res/poster.png)  
-
-# Introduction
-> #### This project aims to design an indoor surveillance system which by using three devices: a set of Bluetooth sensors, a base station and a web camera. Users could install the sensor anywhere in their home and mount the camera at the right location to observe the surveillance region. If an unauthorised person has some unallowed actions, the sensor will notify the base station and the web camera will catch a photo for the surveillance region. The users will be notified and they can find the warning notification and photo via a phone APP. 
 
 # Feature
  - Firebase Authentication
